@@ -37,7 +37,6 @@ python-estudos
 - [ ] Manipulação de arquivos
 - [ ] Bibliotecas e módulos
 
-> Marque conforme for avançando no conteúdo ✅
 
 ## ▶️ Como executar os códigos
 
@@ -58,5 +57,5 @@ Estou estudando Python com foco em transição de carreira para a área de tecno
 
 ## 📫 Contato
 
-- LinkedIn: [seu link aqui]
+- LinkedIn: [https://www.linkedin.com/in/sarah-fernaandes/]
 
