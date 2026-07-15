@@ -14,7 +14,9 @@ Este repositório documenta minha jornada de aprendizado em Python, com o objeti
 python-estudos
 ┣ 📂 aulas_explicacoes/      → Anotações e códigos de exemplo apresentados durante as aulas
 ┣ 📂 exercicios_aula/       → Exercícios propostos e resolvidos durante as aulas
-┗ 📂 exercicios_treinos/     → Exercícios extras de prá### 🗂 Detalhamento das pastas
+┗ 📂 exercicios_treinos/     → Exercícios extras de práticas
+
+### 🗂 Detalhamento das pastas
 
 - **`aulas-e-explicacoes/`** — Contém os arquivos com o conteúdo teórico e prático explicado durante as aulas, incluindo comentários explicativos no próprio código para facilitar a revisão futura.
 - **`exercicios-em-aula/`** — Exercícios que foram passados e resolvidos junto com o professor/instrutor durante as aulas.
@@ -30,7 +32,7 @@ python-estudos
 - [x] Variáveis e tipos de dados
 - [x] Estruturas condicionais
 - [x] Laços de repetição (`for`, `while`)
-- [ ] Funções
+- [x] Funções
 - [ ] Listas, tuplas e dicionários
 - [ ] Manipulação de strings
 - [ ] Programação Orientada a Objetos
