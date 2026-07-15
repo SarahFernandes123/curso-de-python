@@ -32,7 +32,7 @@ python-estudos
 - [x] Variáveis e tipos de dados
 - [x] Estruturas condicionais
 - [x] Laços de repetição (`for`, `while`)
-- [ ] Funções
+- [x] Funções
 - [ ] Listas, tuplas e dicionários
 - [ ] Manipulação de strings
 - [ ] Programação Orientada a Objetos
