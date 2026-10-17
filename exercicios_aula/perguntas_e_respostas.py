@@ -28,7 +28,7 @@ for pergunta in perguntas:
 
     opçoes = pergunta['Opções']
 
-    for i, opcao in enumerate(opçoes):
+    for i, opcao in enumerate(opçoes):   #enumerate para colocar os indices de opções nas perguntas
         print(f'{i})', opcao)
 
     print()
