@@ -11,18 +11,38 @@ while True:
 
     if opcoes == 1:
         nova_tarefa = input('Digite o nome da sua tarefa: ')
-        tarefas.append(nova_tarefa)
+        tarefas_adicionadas = {
+            "nome_tarefa": nova_tarefa,
+            "concluida": False
+        }
+        tarefas.append(tarefas_adicionadas)
         
     elif opcoes ==2:
-        for i, tarefa in enumerate(tarefas, start=1):
-            print(f'{i})',tarefa)   
+            for i, tarefa in enumerate(tarefas, start=1):
+             print(f'{i})',tarefa['nome_tarefa'], tarefa['concluida'])   
+    
     elif opcoes ==3:
-        ...
+        numero = int(input('Digite o número da tarefa que deseja concluir: '))
+        if numero <1 or numero > len(tarefas):
+            print('Escolha um número válido.')
+        
+        else:
+            tarefas_escolhidas = tarefas[numero-1]
+            if tarefas_escolhidas['concluida']:
+                print('Tarefa já concluida.')
+            else:
+                tarefas_escolhidas['concluida'] = True
+                print('A tarefa selecionada: ', tarefas_escolhidas['nome_tarefa'], 'foi concluida.')
+
+           
     elif opcoes ==4:
         ...
     elif opcoes ==5:
         ...
-    ##else: 
-        ##break
+    sair = input('Caso deseje sair escolha 5: ').startswith('5')
+    
+    if sair is True:
+        print('Programa encerrado.')
+        break
 
 print(tarefa)
