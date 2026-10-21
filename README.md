@@ -21,6 +21,7 @@ python-estudos
 - **`aulas-e-explicacoes/`** — Contém os arquivos com o conteúdo teórico e prático explicado durante as aulas, incluindo comentários explicativos no próprio código para facilitar a revisão futura.
 - **`exercicios-em-aula/`** — Exercícios que foram passados e resolvidos junto com o professor/instrutor durante as aulas.
 - **`exercicios-de-treino/`** — Exercícios adicionais que resolvo por conta própria para reforçar o aprendizado dos temas estudados.
+- **`projetos_treinos/`** — Pequenos projetos adicionais que para auxiliar a colocar diversos conceitos em práticas.
 
 ## 🛠 Tecnologias
 
@@ -33,7 +34,7 @@ python-estudos
 - [x] Estruturas condicionais
 - [x] Laços de repetição (`for`, `while`)
 - [x] Funções
-- [ ] Listas, tuplas e dicionários
+- [x] Listas, tuplas e dicionários
 - [ ] Manipulação de strings
 - [ ] Programação Orientada a Objetos
 - [ ] Manipulação de arquivos
