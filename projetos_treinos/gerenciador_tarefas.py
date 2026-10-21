@@ -36,13 +36,33 @@ while True:
 
            
     elif opcoes ==4:
-        ...
-    elif opcoes ==5:
-        ...
-    sair = input('Caso deseje sair escolha 5: ').startswith('5')
-    
-    if sair is True:
-        print('Programa encerrado.')
-        break
+        buscar = input('Digite o nome da tarefa que deseja buscar: ')
+        encontrou = False
+        for buscar_tarefa in tarefas:
+            if buscar in buscar_tarefa['nome_tarefa']:
+                print(buscar_tarefa['nome_tarefa'])
+                encontrou = True
+        if not encontrou:
+            print('Tarefa não encontrada')
 
-print(tarefa)
+
+    elif opcoes ==5:
+        tarefas_total = len(tarefas)
+        
+        tarefas_concluidas = 0
+        for tarefa in tarefas:
+            if tarefa['concluida']:
+                tarefas_concluidas +=1
+
+        tarefas_pendentes = tarefas_total - tarefas_concluidas
+
+        print('Total de tarefas: ', tarefas_total)
+        print('Tarefas concluidas: ', tarefas_concluidas)
+        print('Tarefas pendentes: ', tarefas_pendentes)
+
+    elif opcoes == 0:
+        break
+    
+    else:
+        print('Escolha uma opção válida.')
+
